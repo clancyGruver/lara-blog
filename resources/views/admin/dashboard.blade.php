@@ -27,7 +27,7 @@
 	</div>
 	<div class="row">
 		<div class="col-6">
-			<a class="btn btn-primary" href="#" role="button">Добавить категорию</a>
+			<a class="btn btn-primary" href="{{ route('admin.category.create') }}" role="button">Добавить категорию</a>
 			<ul class="list-group">
 				<a href="#" class="list-group-item list-group-item-action">
 					<h4>Категория 1</h4>

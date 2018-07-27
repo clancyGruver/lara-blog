@@ -19,6 +19,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div id="app">
@@ -39,7 +43,7 @@
                             Блог
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Категории</a>
+                          <a class="dropdown-item" href="{{ route('admin.category.index') }}">Категории</a>
                             <a class="dropdown-item" href="#">Материалы</a>
                         </li>
                     </ul>
